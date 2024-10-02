@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttar Pradesh Image Map</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:white;
+            text-align: center;
+            padding-top: 60px;
+        }
+        h1 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Clickable Image Map of Uttar Pradesh</h1>
+    <p>Click on popular districts of Uttar Pradesh:</p>
+
+    <!-- The image of the Uttar Pradesh map -->
+    <img src="up.jpg" alt="Uttar Pradesh Map" usemap="#upmap" width="700">
+
+    <!-- Define clickable areas on the map -->
+    <map name="upmap">
+        <!-- Rectangular area for Lucknow -->
+        <area shape="rect" coords="280,150,340,200" alt="Lucknow" href="https://en.wikipedia.org/wiki/Lucknow">
+
+        <!-- Rectangular area for Varanasi -->
+        <area shape="rect" coords="360,230,420,280" alt="Varanasi" href="https://en.wikipedia.org/wiki/Varanasi">
+
+        <!-- Rectangular area for Kanpur -->
+        <area shape="rect" coords="260,200,320,250" alt="Kanpur" href="https://en.wikipedia.org/wiki/Kanpur">
+
+        <!-- Rectangular area for Agra -->
+        <area shape="rect" coords="200,320,260,370" alt="Agra" href="https://en.wikipedia.org/wiki/Agra">
+
+        <!-- Rectangular area for Prayagraj (Allahabad) -->
+        <area shape="rect" coords="300,260,360,310" alt="Prayagraj" href="https://en.wikipedia.org/wiki/Prayagraj">
+    </map>
+
+</body>
+</html>
